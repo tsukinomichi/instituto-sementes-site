@@ -23,6 +23,7 @@
 *.pem
 dev.log
 dev.err.log
+site-package.tar.gz
 
 # debug
 npm-debug.log*
