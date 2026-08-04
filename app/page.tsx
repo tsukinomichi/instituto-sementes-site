@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const projects = [
   { tag: "Agricultura familiar", title: "Da Terra à Mesa", text: "Fortalecimento de famílias agricultoras, produção sustentável e acesso a mercados locais.", image: "https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=1200&q=85" },
   { tag: "Território", title: "Hortas que Aproximam", text: "Cultivo coletivo, alimentação saudável e geração de renda em espaços urbanos.", image: "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&w=1200&q=85" },
@@ -9,7 +11,7 @@ const projects = [
 ];
 
 function Mark({ light = false }: { light?: boolean }) {
-  return <a href="#inicio" className={`mark ${light ? "mark-light" : ""}`} aria-label="Instituto Sementes da Sustentabilidade — início"><img className="brand-logo" src="/logo-iss-oficial.jpg" alt="Instituto Sementes da Sustentabilidade" /></a>;
+  return <a href="#inicio" className={`mark ${light ? "mark-light" : ""}`} aria-label="Instituto Sementes da Sustentabilidade — início"><img className="brand-logo" src={`${basePath}/logo-iss-oficial.jpg`} alt="Instituto Sementes da Sustentabilidade" /></a>;
 }
 
 function Minimal() {
