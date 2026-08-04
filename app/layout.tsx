@@ -8,6 +8,12 @@ const cormorant = Cormorant_Garamond({ variable: "--font-editorial", subsets: ["
 export const metadata: Metadata = {
   title: "Instituto Sementes da Sustentabilidade — Propostas visuais",
   description: "Duas propostas de Home para o Instituto Sementes da Sustentabilidade.",
+  openGraph: {
+    title: "Instituto Sementes da Sustentabilidade",
+    description: "Cultivamos futuros que florescem juntos.",
+    images: [{ url: "/og.png", width: 1733, height: 909, alt: "Instituto Sementes da Sustentabilidade" }],
+  },
+  twitter: { card: "summary_large_image", images: ["/og.png"] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
