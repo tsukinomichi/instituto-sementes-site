@@ -9,7 +9,7 @@ const projects = [
 ];
 
 function Mark({ light = false }: { light?: boolean }) {
-  return <a href="#inicio" className={`mark ${light ? "mark-light" : ""}`} aria-label="Instituto Sementes da Sustentabilidade — início"><img className="brand-logo" src="/marca-instituto.png" alt="Instituto Sementes da Sustentabilidade" /></a>;
+  return <a href="#inicio" className={`mark ${light ? "mark-light" : ""}`} aria-label="Instituto Sementes da Sustentabilidade — início"><img className="brand-logo" src="/logo-iss-oficial.jpg" alt="Instituto Sementes da Sustentabilidade" /></a>;
 }
 
 function Minimal() {
