@@ -1,4 +1,0 @@
-(node:34972) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
-(Use `node --trace-deprecation ...` to show where the warning was created)
-[2m11:34:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /app/_sites-preview/SkeletonPreview.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-[2m11:34:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /app/_sites-preview/preview.css. This could be due to syntax errors or importing non-existent modules. (see errors above)
